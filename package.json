@@ -1,0 +1,27 @@
+{
+  "name": "com.duylt.virgo.school",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/virgo.main.js"
+  },
+  "author": "duylt7903",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "app-root-path": "^3.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "currency": "^4.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "multer": "^1.4.3",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7",
+    "uuid": "^10.0.0"
+  }
+}
